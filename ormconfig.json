@@ -1,13 +1,16 @@
+
 {
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
   "username": "postgres",
-  "password": "docker",
-  "database": "gostack_desafio06",
+  "password": "Josebob3",
+  "database": "desafioBancoUpload",
   "entities": ["./src/models/*.ts"],
-  "migrations": ["./src/database/migrations/*.ts"],
+  "migrations": [
+      "./src/database/migrations/*.ts"
+  ],
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+      "migrationsDir": "./src/database/migrations"
   }
 }
